@@ -33,6 +33,11 @@ ul {
     gap: 30px;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 
 .header {
     background-color: #1f2937;
@@ -45,24 +50,73 @@ ul {
     align-items: center;
 }
 
-.info-top {
+.header-bottom {
     background-color: #1f2937;
     color: #f9faf8;
     padding-left: 100px;
     padding-right: 100px;
     height: 400px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.info-top-left {
+.header-bottom-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: baseline;
 }
 
+.header-bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    text-align: center;
+}
+
+.cards {
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    height: 300px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-message {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-message-author {
+    text-align: end;
+}
+
+.signup-message {
+    height: 400px;
+}
 
 
 .footer {
