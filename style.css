@@ -5,20 +5,26 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 .header-image {
-    height: 200px;
-    width: 500px;
-    background-color: black;
+    height: auto; 
+    width: auto;
+    /* max-height: 490px; */
+    max-width: 350px;
 }
 
 .content-image {
-    border: 0;
+    border: 3px solid #3882f6;
     border-radius: 15px;
     height: 150px;
     width: 150px;
-    background-color: red;
 }
 
  p.header-logo {
@@ -104,6 +110,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
+    gap: 10px;
 }
 
 .header-bottom-right {
@@ -125,10 +132,10 @@ h1 {
 
 .cards {
     min-height: 300px;
-    margin: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -187,7 +194,7 @@ h1 {
 
 .signup-message-inner-left p {
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 .signup-message-inner-left {
